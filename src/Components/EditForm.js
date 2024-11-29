@@ -11,7 +11,7 @@ const EditForm =  () => {
     const [data_2, setData] = useState([]);
 
     /* récupération de la valeur de ID contenu dans l'URL via le hook useParams */
-    let {id} = useParams();
+    const {id} = useParams();
     const navigate = useNavigate();
     /* Variable stockant les informations destinées à être envoyées en base de 
     données pour des modifications de celle-ci */
@@ -111,9 +111,7 @@ const postData = async () => {
                                     <option value="difficile">difficile</option>
                                 </select>
                             </div>
-
-                            <div>
-                                
+                            <div>              
                                 <select required name="duration" value={selectedValue_2} onChange={handleSelectChange_2} >
                                     <option  disabled hidden >Durée</option>
                                     <option value="15">15 minutes ou moins</option>
@@ -125,8 +123,6 @@ const postData = async () => {
                             </div>
                         </div>
                     </div>
-
-
                     <div className="description_gameplay_contact_div">
                         <div className="under_div_scene">
                             <label htmlFor="description-scene">Description de la scène</label>
