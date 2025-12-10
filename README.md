@@ -1,5 +1,6 @@
 # Scenatorium – Frontend
 [scenatorium.com](https://scenatorium.com/)
+
 Ce dépôt contient le **frontend du site Scenatorium**, une plateforme dédiée à la création et au partage de scènes pour jeux de rôle sur table.
 
 Le projet a été développé en 2024 / début 2025 dans le cadre d’un **projet en duo**, avec pour objectif de livrer un site web fonctionnel et accessible en production.
