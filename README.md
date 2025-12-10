@@ -1,5 +1,6 @@
 # Scenatorium – Frontend
-[scenatorium.com](https://scenatorium.com/)
+Le site est en ligne !
+==> [scenatorium.com](https://scenatorium.com/)
 
 Ce dépôt contient le **frontend du site Scenatorium**, une plateforme dédiée à la création et au partage de scènes pour jeux de rôle sur table.
 
